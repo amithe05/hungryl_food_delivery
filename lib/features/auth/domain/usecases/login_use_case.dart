@@ -1,4 +1,4 @@
-import 'package:hungyrl_food_delivery_application/features/auth/domain/repositories/auth_repo.dart';
+import '../repositories/auth_repo.dart';
 
 class LoginUseCase {
   final AuthRepository repository;

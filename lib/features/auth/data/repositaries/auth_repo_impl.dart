@@ -1,5 +1,5 @@
-import 'package:hungyrl_food_delivery_application/features/auth/data/datasources/auth_remote_data_souce.dart';
-import 'package:hungyrl_food_delivery_application/features/auth/domain/repositories/auth_repo.dart';
+import '../../domain/repositories/auth_repo.dart';
+import '../datasources/auth_remote_data_souce.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final AuthRemoteDataSource remoteDataSource;
